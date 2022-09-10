@@ -1,11 +1,22 @@
-/*
+
+/**********************************************************************************************************************
+                            Maximum Segment Sum After Removals
+                            
+You are given two 0-indexed integer arrays nums and removeQueries, both of length n.
+For the ith query, the element in nums at the index removeQueries[i] is removed, splitting nums into different segments.
+A segment is a contiguous sequence of positive integers in nums. A segment sum is the sum of every element in a segment.
+Return an integer array answer, of length n, where answer[i] is the maximum segment sum after applying the ith removal.
+Note: The same index will not be removed more than once.
+***********************************************************************************************************************/
+
+/***************************************************************************************************
 I have used disjoint_union_find method to solve this problem.
 The problem can be solved by reversing the deletion operations mentioned,i.e
 adding the removed elements in the reverse order into a hash_table
 and merging the current element and prev_element to this added element if there is a merge possible
 and merging the current_element and the next_one if there is a merge possible.
 At each step the maximum sum is inserted at the right location in the answer array.
-*/
+*****************************************************************************************************/
 
 class Solution {
 public:
