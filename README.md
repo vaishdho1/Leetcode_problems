@@ -3,8 +3,7 @@
 
 
 #### 1) Path_sum_II 
-##### Given the root of a binary tree and an integer targetSum, 
-##### return all root-to-leaf paths where the sum of the node values in the path equals targetSum.
+##### Given the root of a binary tree and an integer targetSum,return all root-to-leaf paths where the sum of the node values in the path equals targetSum.
 ###### One approach using DFS ~ O(m+n)
 
 #### 2) Longest_Increasing_Subsequence
