@@ -1,13 +1,21 @@
-/*
+/******************************************************************************************************************
+                            113. Path Sum II
+Given the root of a binary tree and an integer targetSum, 
+return all root-to-leaf paths where the sum of the node values in the path equals targetSum.
+Each path should be returned as a list of the node values, not node references.
+A root-to-leaf path is a path starting from the root and ending at any leaf node. A leaf is a node with no children.
+*******************************************************************************************************************/
+/****************************************************************
+                            Solution
 DFS is run from the root till the leaf.
 Add the value to a list everytime we enter into a node.
 Everytime a leaf node is reached,we check if the sum of the nodes
 in the path is same as the targetsum.
 If the sum is the same, insert the list into the ans
-*/
+*******************************************************************/
 
 
-/**
+/*
  * Definition for a binary tree node.
  * struct TreeNode {
  *     int val;
