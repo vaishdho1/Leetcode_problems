@@ -13,9 +13,9 @@
 ###### Approach 2: Using binary search O(nlogn)
 
 #### Edit_distance
-###### Given two strings word1 and word2, return the minimum number of operations required to convert word1 to word2.
-####### Approach 1: Dynamic programming using space - O(m*n)
-####### Approach 2: Dynamic programming using space - O(m), m>=n
+##### Given two strings word1 and word2, return the minimum number of operations required to convert word1 to word2.
+###### Approach 1: Dynamic programming using space - O(m*n)
+###### Approach 2: Dynamic programming using space - O(m), m>=n
 
 #### Maximum Segment Sum After Removals'
 ##### Maximum segement sum after applying a aset of removals
