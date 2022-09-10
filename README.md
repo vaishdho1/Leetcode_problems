@@ -1,5 +1,5 @@
 # Leetcode_problems
-## Solutions to some of the leetcode problems solved
+### Solutions and approach to some of the leetcode problems
 
 
 #### 1) Path_sum_II 
