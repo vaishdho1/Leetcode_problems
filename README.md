@@ -23,4 +23,10 @@
 ######           a) path compression
 ######           b) union_by_rank 
 
+### 5)Number of Operations to Make Network Connected(1319_Number_of_Operations_to Make_Network_Connected.cpp)
+##### Find if all the computers can be connected by a network
+###### Approach1:Use DFS
+###### Approach2: Use DSU(disjoint set union)
+
+
 
